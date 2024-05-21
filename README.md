@@ -1,10 +1,12 @@
 ## Introduction
 User Management Dashboard is a webpage in which all the users with their id, name, email and website are being displayed in the form of cards. One can manupulate the data i.e perform CRUD operation onto the website.  
+
+## Need to install node modules in the code folder named as User /  before run 
+npm i 
+
 ## Directory Structure
 
 ├── src/
-
-├──├── assets/
 
 ├──├── components/
 
@@ -32,7 +34,7 @@ User Management Dashboard is a webpage in which all the users with their id, nam
 
 ## Features
 
-- New user can be added.
+- New users can be added.
 - Every user is editable.
 - One can delete any user.
 - Pagination is being implemented with infinite scrolling features.
@@ -53,7 +55,7 @@ https://jsonplaceholder.typicode.com/
 
 ## API Endpoints
 
-"/users" endpoint is being used for performing CRUD operation.
+The "/users" endpoint is being used for performing CRUD operations.
 
 ## Technology Stack
 
